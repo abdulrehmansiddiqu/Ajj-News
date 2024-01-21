@@ -1,0 +1,79 @@
+.HELLO{
+    font-family: initial;
+    background-color: rgb(42, 148, 148);
+    color: aquamarine;
+}
+
+}
+.paragrap{
+    font-size: larger ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 3px;
+    font-weight: normal;
+}
+.same{
+    background-color: black;
+}
+#id{
+    background-color:black;
+}
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+}
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+#fotter {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* *{ font-family: 'Heebo', sans-serif;} */
+*body {
+    background-image: url("/pic.jpg");
+    /* background-color: #cccccc; */
+   }
+   
+
+@media (min-width: 768px) and (max-width: 1199.98px) { ... }
+
+      
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f50000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
